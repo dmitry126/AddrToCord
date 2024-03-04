@@ -45,11 +45,11 @@ namespace ExcelHelper
 
         private void btn_Calc_Click(object sender, EventArgs e)
         {
-            if (tb_Path.Text != null) 
+            if (filePath != null) 
             {
                 Excel.Application ObjExcel = new Excel.Application();
                 //Открываем книгу.                                                                                                                                                        
-                Workbook ObjWorkBook = ObjExcel.Workbooks.Open(tb_Path.Text, 0, false, 5, "", "", false, XlPlatform.xlWindows, "", true, false, 0, true, false, false);
+                Workbook ObjWorkBook = ObjExcel.Workbooks.Open(filePath, 0, false, 5, "", "", false, XlPlatform.xlWindows, "", true, false, 0, true, false, false);
                 //Выбираем таблицу(лист).
                 Worksheet ObjWorkSheet;
                 ObjWorkSheet = (Worksheet)ObjWorkBook.Sheets[1];
@@ -59,13 +59,16 @@ namespace ExcelHelper
                 Range last = ObjWorkSheet.Cells.SpecialCells(XlCellType.xlCellTypeLastCell, Type.Missing);
                 Range range = ObjWorkSheet.get_Range("A2", last);
 
+                ObjWorkSheet.Cells[1, 18].Value2 = "Долгота";
+                ObjWorkSheet.Cells[1, 19].Value2 = "Широта";
+
                 //Iterate the rows in the used range
                 foreach (Excel.Range row in range.Rows)
                 { 
                     string result = GetCord(URL + row.Columns[2].Value2 + ", " + row.Columns[5].Value2);
                     string[] values = result.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                    row.Columns[17].Value2 = values[0];
-                    row.Columns[18].Value2 = values[1];
+                    row.Columns[18].Value2 = values[0];
+                    row.Columns[19].Value2 = values[1];
 
                 }
             }
@@ -105,7 +108,7 @@ namespace ExcelHelper
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = GetCord2(@"https://geocode-maps.yandex.ru/1.x/?apikey=4f98a5df-1522-46aa-8279-2a8691188448&geocode=Кобулети,%20просп.%20Давида%20Агмашенебели,%20291");
+            //textBox1.Text = GetCord2(@"https://geocode-maps.yandex.ru/1.x/?apikey=4f98a5df-1522-46aa-8279-2a8691188448&geocode=Кобулети,%20просп.%20Давида%20Агмашенебели,%20291");
         }
     }
 }

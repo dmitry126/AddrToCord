@@ -43,7 +43,6 @@
             this.tb_Path.ReadOnly = true;
             this.tb_Path.Size = new System.Drawing.Size(605, 45);
             this.tb_Path.TabIndex = 0;
-            this.tb_Path.Text = "C:\\Users\\KEEP OUT NIGGER!!!\\Downloads\\Объекты.xlsx";
             // 
             // label1
             // 

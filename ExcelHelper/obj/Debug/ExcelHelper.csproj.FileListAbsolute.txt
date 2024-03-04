@@ -9,3 +9,13 @@ C:\Users\KEEP OUT NIGGER!!!\Documents\Работы C#\ExcelHelper\ExcelHelper\ob
 C:\Users\KEEP OUT NIGGER!!!\Documents\Работы C#\ExcelHelper\ExcelHelper\obj\Debug\ExcelHelper.csproj.CoreCompileInputs.cache
 C:\Users\KEEP OUT NIGGER!!!\Documents\Работы C#\ExcelHelper\ExcelHelper\obj\Debug\ExcelHelper.exe
 C:\Users\KEEP OUT NIGGER!!!\Documents\Работы C#\ExcelHelper\ExcelHelper\obj\Debug\ExcelHelper.pdb
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\obj\Debug\ExcelHelper.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\obj\Debug\ExcelHelper.Form1.resources
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\obj\Debug\ExcelHelper.Properties.Resources.resources
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\obj\Debug\ExcelHelper.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\obj\Debug\ExcelHelper.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\obj\Debug\ExcelHelper.exe
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\obj\Debug\ExcelHelper.pdb
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\bin\Debug\ExcelHelper.exe.config
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\bin\Debug\ExcelHelper.exe
+C:\Users\Alex\source\repos\AddrToCord\ExcelHelper\bin\Debug\ExcelHelper.pdb
