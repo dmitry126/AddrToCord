@@ -23,7 +23,7 @@ namespace ExcelHelper
             InitializeComponent();
         }
         string filePath;
-        string URL = "https://geocode-maps.yandex.ru/1.x/?apikey=4f98a5df-1522-46aa-8279-2a8691188448&geocode=";
+        string URL = "https://geocode-maps.yandex.ru/1.x/?apikey=4f98a5df-1522-46aa-8279-2a8691188448&geocode=Грузия, ";
         private void btn_OpenFile_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
